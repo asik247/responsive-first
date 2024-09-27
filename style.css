@@ -83,3 +83,12 @@ nav > ul > li >:hover,nav>ul>li>a.active{
    }
   
 }
+
+/* first section code start here */
+section{
+    background-image: url(images/girl\ unplas.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
