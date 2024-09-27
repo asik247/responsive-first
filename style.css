@@ -3,55 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .parent{
-    width: 1000px;
-    margin: 0 auto;
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-   
-} */
-/* .parent > div{
-display: grid;
-place-items: center;
-height: 400px;
-}
-
-.div1{
-    color: red;
-    background-color: green;
-}
-.div2{
-    color: rgb(11, 131, 7);
-    background-color: rgb(172, 15, 9);
-}
-.div3{
-    color: rgb(37, 8, 163);
-    background-color: rgb(216, 213, 12);
-}
-.div4{
-    color: rgb(226, 217, 217);
-    background-color: rgb(3, 5, 3);
-}
-
-@media only screen and (max-width: 688px) {
-    .parent{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        width: 100%;
-    }
-}
-@media only screen and (min-width: 689px) and (max-width: 993px) {
-    .parent{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 100%;
-        .div1{
-            background-color: dodgerblue;
-        }
-    }
-} */
-
 /* navgation bar code start here */
 nav{
     display: flex;
@@ -59,24 +10,20 @@ nav{
     align-items: center;
     background-color: rgb(19, 25, 31);
     padding: 20px 20px;
-
 }
 .logo{
     font-size: 25px;
     color: whitesmoke;
     text-transform: uppercase;
 }
-
 nav > ul{
   display: flex;
- 
 }
 nav > ul > li{
     list-style: none;
     margin: 0 5px;
     font-size: 18px;
     text-transform: capitalize;
-    
  
 }
 nav > ul > li >a{
