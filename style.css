@@ -169,6 +169,183 @@ nav > ul > li >:hover,nav>ul>li>a.active{
 }
 
 
+/* about more vandilla code start here */
+
+#more_about_section{
+    background-image:url(images/bck.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    background-color: gray;
+}
+.vandilla_parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap:30px;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.title h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.title p{
+    margin: 10px 0;
+}
+.title ul{
+    margin-bottom: 15px;
+}
+.title a{
+    text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+/* card */
+.card_parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:25px;
+}
+.single_card{
+    background-color: rgba(233, 200, 161, 0.836);
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.single_card h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+/* lissen to me start */
+
+#lissen_section{
+    background-image: url(images/cont.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+#lissen_section{
+    padding: 60px 0;
+}
+.lissen_parent{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* images start */
+.imges_div h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+.imges_div p{
+    margin: 10px 0;
+}
+.imges_div a{
+    background-color: bisque;
+    padding: 5px 20px;
+    margin: 10px 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+.imges_div a i:hover{
+    color: red;
+    
+}
+
+/* paragraph  */
+.paragraph h3{
+font-size: 22px;
+text-transform:uppercase;
+margin-bottom: 15px;
+
+}
+.paragraph p{
+    margin: 15px 0;
+    line-height: 1.2em;
+    text-align: justify;
+}
+.paragraph button{
+    background-color: bisque;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+/* Contact section start */
+#contact_section{
+    padding: 50px 0;
+    background-color: rgb(10, 10, 19);
+    color: wheat;
+    width: 100%;
+}
+#contact_from{
+    width: 50%;
+    margin: auto;
+    background-color:#0C2D36;
+    padding: 30px 20px;
+    text-align: center;
+    border: 2px solid lightpink;
+}
+#contact_from input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: none;
+    margin: 20px 0;
+    outline: none;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke;
+
+}
+#contact_from button{
+    border: 1px solid rgb(230, 221, 221);
+    background: none;
+    padding: 5px 15px;
+    color: whitesmoke;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:688px){
     .second_section_parent{
@@ -196,6 +373,53 @@ width: 100%;
 .smart_title{
     margin-top: 20px;
 }
+
+
+/* vardilla resposive start */
+.vandilla_parent{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap:30px;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.card_parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:10px;
+}
+
+
+/* vardilla resposive End */
+
+/* lissen to me resposive start */
+.lissen_parent{
+    display: block;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.paragraph{
+    margin-top: 25px;
+}
+.imges_div a i{
+    text-align: left;
+}
+/* lissen to me resposive End */
+/* contact resposive start */
+#contact_from{
+   width: 100%;
+   margin: auto;
+    background-color:#0C2D36;
+    padding: 30px 20px;
+    text-align: center;
+    border: 2px solid lightpink;
+}
+/* contact resposive End */
 }
 
 @media only screen and (min-width:689px) and (max-width:1099px){
@@ -222,11 +446,47 @@ width: 100%;
     .smart_title{
         margin-top: 40px;
     }
+/* vardilla resposive start */
+.vandilla_parent{
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap:20px;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.card_parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap:10px;
+}
 
 
+/* vardilla resposive End */
 
-
-
-
-
+/* lissen to me resposive start */
+.lissen_parent{
+    display: block;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.paragraph{
+    margin-top: 25px;
+}
+/* lissen to me resposive End */
+/* contact resposive start */
+#contact_from{
+    width: 100%;
+    margin: auto;
+     background-color:#0C2D36;
+     padding: 30px 20px;
+     text-align: center;
+     border: 2px solid lightpink;
+ }
+ /* contact resposive End */
        }
+
